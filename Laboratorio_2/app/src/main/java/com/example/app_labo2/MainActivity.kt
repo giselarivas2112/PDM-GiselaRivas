@@ -21,6 +21,10 @@ class MainActivity : ComponentActivity() {
             App_labo2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
+                    ListadoNombres(
+                        modifier = Modifier.padding(innerPadding)
+                    )
+
                 }
             }
         }
